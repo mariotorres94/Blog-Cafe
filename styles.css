@@ -1,0 +1,219 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+.negrita{
+    font-size: 4.8rem;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.8rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.centrar-texto{
+    text-align: center;
+    font-weight: 400;
+}
+
+.contenedor{
+    margin: 0 auto;
+    width: min(90%, 120rem);
+}
+
+.barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+
+.barra h1{
+    color: white;
+    font-weight: 200;
+}
+
+.fondo-header{
+    background-image: url("img/banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 60rem;
+}
+
+.contenido-header{
+    line-height: 3;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+}
+
+.navegacion a:last-child{
+    margin-right: 0;
+}
+
+.texto-centrado{
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+}
+
+.texto-centrado p{
+    font-size: 1.6rem;
+}
+
+.blog{
+    display: block;
+}
+
+.contenido-blog{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+}
+
+.entrada{
+    border-bottom: 2px solid #e1e1e1;
+    margin-bottom: 2rem;
+}
+
+.boton{
+    display: inline-block;
+    background-color: #000000;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.blog1 h4{
+    line-height: 1.2;
+}
+
+.boton-brown{
+    display: inline-block;
+    background-color: #784d3c;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    padding: 1rem 3rem;
+}
+
+.contenido-aside{
+    border-bottom: 2px solid #e1e1e1;
+    margin-bottom: 2rem;
+}
+
+.pie-pagina{
+    background-color: #000000;
+    margin-top: 3rem;
+}
+
+.barra-pie{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.contenido-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+.contenido-cursos{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+    padding: 3rem 0;
+    border-bottom: 2px solid #e1e1e1;
+}
+
+.contenido-cursos:last-of-type{
+    border-bottom: none;
+}
+
+.text-weight{
+    font-size: 2rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+.contacto-bg {
+    background-image: url("img/contacto.jpg");
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario {
+    background-color: white;
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.campo__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+.campo__field {
+    flex: 1;
+    border: 1px solid #e1e1e1;
+}
+.campo__field--textarea {
+    height: 20rem;
+}
