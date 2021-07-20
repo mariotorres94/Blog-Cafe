@@ -91,6 +91,7 @@ body{
     font-size: 16px;
     line-height: 2;
     margin: 10px 0;
+    text-align: justify;
 }
 .contenido__principal--contenido a{
     background-color: var(--cuartoColor);
@@ -177,6 +178,7 @@ body{
     font-size: 16px;
     font-family: var(--fontFamily1);
     line-height: 2;
+    text-align: justify;
 }
 .nosotros__contenido--p p:last-child{
     margin-top: 15px;
@@ -199,6 +201,7 @@ body{
     font-size: 16px;
     font-family: var(--fontFamily2);
     margin: 30px 0;
+    text-align: justify;
 }
 .cursos__contenido--p p span{
     font-family: var(--fontFamily1);
@@ -303,6 +306,7 @@ body{
     font-family: var(--fontFamily1);
     line-height: 2;
     margin-top: 20px;
+    text-align: justify;
 }
 /*Responsive*/
 @media (min-width:768px) {
