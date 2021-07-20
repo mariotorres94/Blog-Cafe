@@ -231,16 +231,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* .contacto{
-    position: relative;
-    top: 0;
-    left: 0;
-} */
-/* .contacto form{
-    position: absolute;
-    top: 420px;
-    left: 9px;
-} */
 .contacto form{
     margin: -50px auto 0 auto;    
 }
